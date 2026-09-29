@@ -5,9 +5,6 @@ app = Ursina()
 
 EditorCamera()   # Enable built-in editor camera controls for scene navigation
 
-# Toggle the buffer viewer after a 3-second delay (useful for debugging rendering)
-#invoke(lambda: base.bufferViewer.toggleEnable(), delay = 3)   
-
 # --- Scene objects setup ---
 
 cube = Entity(
