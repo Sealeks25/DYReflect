@@ -38,7 +38,7 @@ sphere = Entity(
 dyr.apply_shader(floor, normal_map = 'floor_normal')
 
 dyr.apply_shader(sphere, 
-    color_map = 'dynamic',         # Use dynamic color mapping
+    color_map = 'dynamic',         # Use dynamic reflection camera
     colorTint = (0.6, 0.6, 1.2),   # Slightly desaturate the base color
     highlight = 0,                 # Disable additional highlights
     normals = 0,                   # Disable normal map effect
